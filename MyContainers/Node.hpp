@@ -1,7 +1,7 @@
 /*
- * Node.cpp
+ * Node.hpp
  *
- *  Created on: Dec 16, 2019
+ *  Created on: Dec 18, 2019
  *      Author: Steven Marrero
  */
 
@@ -26,4 +26,5 @@ public:
 
 	}
 };
+
 
