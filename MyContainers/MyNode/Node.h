@@ -14,13 +14,17 @@ public:
 	T value;
 	Node* next;
 
-	Node() {};
+	Node();
 
-	Node(T val){};
+	Node(T val);
 
-	~Node() {};
+	Node(T val, Node<T>* nextNode);
+
+	void operator=(T val);
+
+	~Node();
 };
 
-
+#include "Node.hpp"
 
 #endif /* MYLINKEDLIST_NODE_H_ */
